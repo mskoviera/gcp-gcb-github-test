@@ -1,3 +1,4 @@
+steps:
 - id: 'clone-common-repo'
   waitFor: ['-']
   name: 'gcr.io/cloud-builders/gcloud-slim'
