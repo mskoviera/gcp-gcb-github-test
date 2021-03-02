@@ -1,0 +1,7 @@
+- id: 'clone-common-repo'
+  waitFor: ['-']
+  name: 'gcr.io/cloud-builders/gcloud-slim'
+  entrypoint: 'bash'
+  args: ['test.sh']
+  env:
+  - 'PROJECT_ID=$PROJECT_ID'
